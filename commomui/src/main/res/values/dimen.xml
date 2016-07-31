@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体大小 -->
+    <dimen name="app_font_size_big">17sp</dimen>
+    <dimen name="app_font_size_normal">14sp</dimen>
+    <dimen name="app_font_size_small">12sp</dimen>
+
+    <!-- 间距 -->
+    <dimen name="app_margin">15dp</dimen>
+    <dimen name="app_margin_small">8dp</dimen>
+
+    <!-- 分隔线 -->
+    <dimen name="app_split_line_size">1dp</dimen>
+
+    <!-- Navigation bar -->
+    <dimen name="app_navigation_bar_title_size">17sp</dimen>
+    <dimen name="app_navigation_bar_button_height">31dp</dimen>
+    <dimen name="app_navigation_bar_height">44dp</dimen>
+    <!-- Navigation bar end -->
+
+    <dimen name="app_main_tab_bar_title_size">14sp</dimen>
+    <dimen name="app_main_tab_bar_height">44dp</dimen>
+
+    <dimen name="app_share_dialog_title_height">40dp</dimen>
+    <dimen name="app_share_dialog_img_width">50dp</dimen>
+    <dimen name="app_share_dialog_img_height">50dp</dimen>
+    
+    <dimen name="app_button_corner_radius">4dp</dimen>
+
+</resources>

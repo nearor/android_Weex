@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nearor.mytext.main.MeFragment">
+
+    <LinearLayout
+        android:id="@+id/me_fragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background_color">
+
+        <RelativeLayout
+            android:id="@+id/rl_me_icon"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:background="@color/app_white"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pm_me_icon"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/ziti"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:id="@+id/pm_me_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                />
+
+            <ImageView
+                android:background="@mipmap/per_me_next"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                />
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_split_line_color"
+                android:layout_marginLeft="15dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_me_name"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/app_white"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pm_me_name"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/ziti"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/pm_me_name"
+                android:text="ce"
+                android:textSize="13sp"
+                android:textColor="@color/app_sub_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                />
+
+            <ImageView
+                android:background="@mipmap/per_me_next"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                />
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_split_line_color"
+                android:layout_marginLeft="15dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_me_phone"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/app_white"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pm_me_phone_number"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/ziti"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/pm_me_phone"
+                android:text=""
+                android:textSize="13sp"
+                android:textColor="@color/app_sub_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_me_set"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/app_white"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pm_me_set"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/ziti"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:background="@mipmap/per_me_next"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

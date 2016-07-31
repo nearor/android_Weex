@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- Activity -->
+    <style name="AppStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_main_color</item>
+        <item name="colorPrimaryDark">@color/app_main_color_dark</item>
+
+        <!-- Custom style -->
+        <item name="android:buttonStyle">@style/AppButton</item>
+        <item name="buttonStyle">@style/AppButton</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="AppStyle.Dialog">
+        <!-- Custom -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+        <!-- From Theme.AppCompat.Light.Dialog -->
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item name="android:windowTitleBackgroundStyle">@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="listPreferredItemPaddingLeft">24dip</item>
+        <item name="listPreferredItemPaddingRight">24dip</item>
+        <item name="android:listDivider">@null</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/commonui_button_text_appwhite</item>
+        <item name="android:textSize">@dimen/app_font_size_normal</item>
+        <item name="android:background">@drawable/commonui_button_bg_appmaincolor</item>
+    </style>
+
+    <!-- Button with fill color -->
+    <style name="AppButton.FillWhite">
+        <item name="android:background">@drawable/commonui_button_bg_white</item>
+        <item name="android:textColor">@color/commonui_button_text_maincolor</item>
+    </style>
+    <style name="AppButton.FillGreen">
+        <item name="android:background">@drawable/commonui_button_bg_appgreen</item>
+        <item name="android:textColor">@color/commonui_button_text_appwhite</item>
+    </style>
+    <!-- Button with fill color end -->
+
+    <!-- Button with border -->
+    <style name="AppButton.Border">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="AppButton.Border.White">
+        <item name="android:background">@drawable/commonui_button_bd_white</item>
+        <item name="android:textColor">@color/commonui_button_text_appwhite</item>
+    </style>
+
+    <style name="AppButton.Border.AppMainColor">
+        <item name="android:background">@drawable/commonui_button_bd_app_main</item>
+        <item name="android:textColor">@color/commonui_button_text_maincolor</item>
+    </style>
+    <!-- Button with border end-->
+
+    <style name="AppButton.MainTabButton">
+        <item name="android:background">@color/app_background_color</item>
+        <item name="android:textSize">@dimen/app_main_tab_bar_title_size</item>
+        <item name="android:textColor">@color/commonui_button_text_subtextcolor_maincolor</item>
+    </style>
+
+    <style name="AppTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="android:textSize">@dimen/app_font_size_normal</item>
+    </style>
+
+    <style name="AppTextView.Tag">
+        <item name="android:textSize">@dimen/app_font_size_small</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/app_white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="AppTextView.Tag.AppMainColor">
+        <item name="android:background">@drawable/commonui_tag_bg_main_color</item>
+    </style>
+    <style name="AppTextView.Tag.AppYellowColor">
+        <item name="android:background">@drawable/commonui_tag_bg_appyellow_color</item>
+    </style>
+
+    <style name="AppTextView.UnreadCount">
+        <item name="android:textSize">@dimen/app_font_size_small</item>
+        <item name="android:textColor">@color/app_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/unread_count_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ProgressHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Navigation bar -->
+    <style name="AppButton.BackButton" parent="">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:src">@drawable/commonui_button_bg_back</item>
+    </style>
+    <style name="AppTextView.HeaderTitle">
+        <item name="android:textSize">@dimen/app_navigation_bar_title_size</item>
+        <item name="android:textColor">@color/app_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppButton.ActionButton">
+        <item name="android:background">@drawable/commonui_button_bg_white</item>
+        <item name="android:textColor">@color/commonui_button_text_maincolor</item>
+        <item name="android:textSize">@dimen/app_font_size_small</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxHeight">@dimen/app_navigation_bar_button_height</item>
+    </style>
+    <!-- Navigation bar end -->
+
+</resources>

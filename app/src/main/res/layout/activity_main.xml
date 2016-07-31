@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main.MainActivity">
+
+    <TextView
+        android:id="@+id/pm_main_activity_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_navigation_bar_height"
+        android:background="@color/app_main_color"
+        android:text="@string/pm_home_title"
+        style="@style/AppTextView.HeaderTitle"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/pm_main_activity_content_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_main_tab_bar_height"
+        android:background="@color/app_background_color">
+
+        <Button
+            android:id="@+id/pm_main_activity_home_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="2dp"
+            android:drawableTop="@drawable/pm_main_home_button_selector"
+            android:text="@string/pm_home_button_title"
+            style="@style/AppButton.MainTabButton"/>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/pm_main_activity_im_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="2dp"
+                android:drawableTop="@drawable/pm_main_im_button_selector"
+                android:text="@string/pm_im_button_title"
+                android:background="@null"
+                style="@style/AppButton.MainTabButton"/>
+            <TextView
+                android:id="@+id/pm_main_activity_unread_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:elevation="2dp"
+                android:visibility="gone"
+                style="@style/AppTextView.UnreadCount"/>
+        </FrameLayout>
+        <Button
+            android:id="@+id/pm_main_activity_me_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="2dp"
+            android:drawableTop="@drawable/pm_main_me_button_selector"
+            android:text="@string/pm_me_button_title"
+            style="@style/AppButton.MainTabButton"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- App 主色调，导航栏、按钮正常状态等 -->
+    <color name="app_main_color">#44cbc7</color>
+    <!-- 按钮 press 状态等 -->
+    <color name="app_main_color_dark">#19b0ab</color>
+
+    <color name="app_transparent">#00000000</color>
+
+    <color name="app_green">#badc2d</color>
+
+    <color name="app_yellow">#ffb228</color>
+
+    <color name="app_white">#ffffff</color>
+    
+    <color name="app_red">#ff0000</color>
+
+    <color name="app_black">#000000</color>
+    <color name="app_black_with_translucent">#b3000000</color>
+
+    <color name="app_background_color">#f0f0f0</color>
+
+    <color name="app_split_line_color">#e0e0e0</color>
+
+    <!-- 提示文字颜色 -->
+    <color name="app_hint_text_color">#bbbbbb</color>
+
+    <!-- 辅助文字颜色 -->
+    <color name="app_sub_text_color">#666666</color>
+
+    <color name="app_text_color">#333333</color>
+
+    <color name="app_disable_color">#cccccc</color>
+    <color name="BackGround">#44cbc7</color>
+    <color name="TextColor">#FFFFFF</color>
+    <color name="hint">#f0f0f0</color>
+    <color name="none">#bbbbbb</color>
+    <color name="xiaoguo">#666666</color>
+    <color name="ziti">#333333</color>
+    <color name="nulll">#000000</color>
+    <color name="money">#ffb228</color>
+    <color name="line">#cccccc</color>
+    <color name="gint">#f7f7f7</color>
+    <color name="divider">#e0e0e0</color>
+    <color name="translucent_background">#60000000</color>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">商旅</string>
+
+    <!-- pm login-->
+    <string name="pm_login_title">标题</string>
+    <string name="pm_login_des">您好,欢迎来到</string>
+    <string name="pm_login_phone">请输入您的手机号</string>
+    <string name="pm_login_password">请输入您的密码</string>
+    <string name="pm_login">登录</string>
+
+    <!-- pm -->
+    <string name="pm_home_title">工作台</string>
+    <string name="pm_me_title">个人中心</string>
+    <string name="pm_im_title">行程</string>
+    <string name="pm_home_button_title">首页</string>
+    <string name="pm_im_button_title">行程</string>
+    <string name="pm_me_button_title">我的</string>
+    <string name="pm_acceptanceupload_bar_text">测试~</string>
+    <!-- pm end -->
+
+    <!-- pm me -->
+    <string name="pm_me_icon">头像</string>
+    <string name="pm_me_name">姓名</string>
+    <string name="pm_me_phone_number">手机号</string>
+    <string name="pm_me_set">设置</string>
+
+
+
+    <!-- pm me end -->
+
+
+</resources>

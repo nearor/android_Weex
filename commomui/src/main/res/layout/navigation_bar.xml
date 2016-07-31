@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@+id/navigation_bar_split_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_split_line_size"
+        android:layout_alignParentBottom="true"
+        android:background="@color/app_main_color_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_above="@+id/navigation_bar_split_line">
+        <RelativeLayout
+            android:id="@+id/navigation_bar_left_container"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25">
+            <ImageButton
+                android:id="@+id/navigation_bar_left_default_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/commonui_icon_back"
+                android:background="@null"
+                android:scaleType="fitStart"
+                android:paddingLeft="@dimen/app_margin"
+                android:paddingTop="11dp"
+                android:paddingBottom="11dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/navigation_bar_mid_container"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+            <TextView
+                android:id="@+id/navigation_bar_mid_default_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/app_navigation_bar_title_size"
+                android:textColor="@color/app_white"
+                android:text="@string/app_name"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/navigation_bar_right_container"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25">
+            <Button
+                android:id="@+id/navigation_bar_right_default_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                style="@style/AppButton"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>
